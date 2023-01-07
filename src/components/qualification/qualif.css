@@ -1,0 +1,123 @@
+.qualif{
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+}
+.qualif__container{
+    max-width: 768px;
+}
+
+.qualif__tabs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--mb-2);
+}
+
+.qualif__button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+    margin: 0 var(--mb-1);
+    cursor: pointer;
+}
+
+.qualif__button:hover{
+    color: var(--title-color-dark);
+}
+
+.qualif__icon{
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.qualif__active{
+    color: var(--title-color-dark);
+}
+
+.qualif__sections{
+    display: grid;
+    grid-template-columns: 0.5fr;
+    justify-content: center;
+}
+
+.qualif__content{
+    display: none;
+}
+
+.qualif__content-active{
+    display: block;
+}
+
+.qualif__data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualif__title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualif__subtitle{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+
+}
+.qualif__calendar{
+    font-size: var(--small-font-size);
+}
+
+.qualif__rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+}
+
+.qualif__line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--text-color);
+    transform: translate(6px, -7px);
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .qualif__container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    #qualif{
+        padding-top: 0rem;
+        padding-bottom: 2rem;
+    }
+    .qualif__container{
+        margin-left: var(--mb-1-5); 
+       margin-right: var(--mb-1-5);
+
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .qualif__sections{
+        grid-template-columns: initial;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .qualif__data{
+        gap: 0.5rem;
+    }
+  }
+  
