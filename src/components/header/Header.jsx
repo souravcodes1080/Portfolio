@@ -67,6 +67,10 @@ const Header = () => {
           <i className="uil uil-apps"></i>
         </div>
       </nav>
+      <div className="hrtag container">
+      <hr/>
+      </div>
+      
     </header>
   );
 };

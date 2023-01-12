@@ -60,7 +60,7 @@ const Footer = () => {
             <i class="uil uil-github-alt"></i>
           </a>
         </div>
-        <span className="footer__copy">2023
+        <span className="footer__copy">
           &#169; <span><a href="#home">Sourav.</a></span> All rights reserved.
         </span>
       </div>

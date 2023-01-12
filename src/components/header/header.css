@@ -4,6 +4,7 @@
     top: 0;
     left: 0;
     padding: 1.5rem;
+    padding-bottom: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
 }
@@ -48,12 +49,21 @@
     color: var(--title-color-dark);
 }
 
+.hrtag hr{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    height: 1px;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, rgb(217, 194, 194)));
+    border: none;
+
+}
 
 
 @media screen and (max-width: 768px) {
     .header{
         top: initial;
-        bottom: 0;
+        bottom: 0;padding-bottom: 1.5rem;
     }
   
     .nav{
@@ -108,6 +118,9 @@
     .nav__toggle{
         display: block;
     }
+    .hrtag hr{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -116,5 +129,8 @@
     }
     .nav__list{
         column-gap: 0;
+    }
+    .hrtag hr{
+        display: none;
     }
 }
