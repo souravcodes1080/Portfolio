@@ -147,6 +147,12 @@
     }
 }
 
+@media screen and (max-width: 432px){
+    .nav__item-border{
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 350px) {
     .nav__menu{
         padding: 2rem 0.25rem 4rem;
