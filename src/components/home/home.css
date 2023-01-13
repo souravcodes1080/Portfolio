@@ -10,15 +10,27 @@
 }
 
 .home__social{
+    
+    margin-left: 0;
     display: grid;
+    width: 27px;
     grid-template-columns: max-content;
     row-gap: 1rem;
+    padding-right: 0;
 }
 
 .home__social-icon{
     font-size: 1.25rem;
     color: var(--title-color);
 }
+/* .home__social-icon-first{
+    border-top: solid 2px rgb(132, 113, 113);
+    padding-top: 2px;
+}
+.home__social-icon-last{
+    border-bottom: solid 2px rgb(132, 113, 113);
+    padding-bottom: 2px;
+} */
 .home__social-icon:hover{
     color: var(--title-color-dark);
 }
@@ -65,7 +77,7 @@
 }
 .home__img{
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     background: url(../../assets/profile.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -76,7 +88,7 @@
     justify-self: center;
     width: 350px;
     height: 350px;
-    animation: profile__animate 9s ease-in-out infinite 1s;
+    animation: profile__animate 6s ease-in-out infinite 1s;
 }
 .home__img-back{
     
@@ -87,14 +99,15 @@
     border: solid 50px;
     opacity: 30%;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; 
+    box-shadow:  0 0 10px 9px rgba(0, 0, 0, 0.3);
     width: 375px;
     height: 375px;
-    animation:  profile__animate-opp 8s ease-in-out infinite 1s;
+    animation:  profile__animate-opp 9s ease-in-out infinite 1s;
 }
 
 .button-glow:hover{
     box-shadow: 0px 0px 20px 7.5px rgb(177, 155, 155);
-    transition: ease .3s;
+    transition: ease-in-out .3s;
 }
 
 

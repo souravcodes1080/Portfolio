@@ -18,8 +18,8 @@ const Header = () => {
           Sourav
         </a>
 
-        <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
-          <ul className="nav__list grid">
+        <div className={Toggle ? "nav__menu show-menu " : "nav__menu"}>
+          <ul className="nav__list grid ">
             <li className="nav__item">
               <a href="#home" className="nav__link active-link">
                 <i className="uil uil-estate nav__icon"></i>Home
@@ -50,8 +50,8 @@ const Header = () => {
               </a>
             </li>
 
-            <li className="nav__item">
-              <a download="" href={CV} className="nav__link">
+            <li className="nav__item nav__item-border">
+              <a download="" href={CV} className="nav__link  ">
                 <i className="uil uil-download-alt nav__icon"></i>Download CV
               </a>
             </li>

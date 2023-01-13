@@ -48,6 +48,15 @@
 .nav__link:hover{
     color: var(--title-color-dark);
 }
+.nav__item{
+    display: flex;
+    align-items: center;
+}
+.nav__item-border{
+    border: 2.2px solid var(--title-color);
+    border-radius: 5px;
+    padding: 7px;
+}
 
 .hrtag hr{
     display: flex;
@@ -64,11 +73,17 @@
     .header{
         top: initial;
         bottom: 0;padding-bottom: 1.5rem;
+        box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
+        border-radius: 1.5rem 1.5rem 0 0;
+        
     }
   
     .nav{
+        
         height: var(--header-height);
+
     }
+
   
     .nav__menu{
         position: fixed;
@@ -84,6 +99,7 @@
 
     .show-menu{
         bottom: 0;
+        
     }
     .nav__list{
         display: grid;
@@ -117,6 +133,14 @@
     .nav__close,
     .nav__toggle{
         display: block;
+    }
+    .nav__item{
+        display:block;
+        align-items: center;
+    }
+    .nav__item-border{
+        border: none;
+    
     }
     .hrtag hr{
         display: none;
