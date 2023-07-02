@@ -134,49 +134,8 @@ const Qualif = () => {
             <div className="qualif__data">
               <div></div>
 
-              <div>
-                <span className="qualif__rounder"></span>
-                <span className="qualif__line"></span>
-              </div>
-              <div>
-                <h3 className="qualif__title">Suvidha Foundation</h3>
-                <span className="qualif__subtitle">Internship</span>
-                <div className="qualif__calender">
-                  <i className="uil uil-calendar-alt"></i>2022 - 2months
-                </div>
-              </div>
+              
             </div>
-
-            {/* <div className="qualif__data">
-              <div>
-                <h3 className="qualif__title">Web Devr</h3>
-                <span className="qualif__subtitle">Spain-Inst.</span>
-                <div className="qualif__calender">
-                  <i className="uil uil-calendar-alt"></i>2020 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualif__rounder"></span>
-                <span className="qualif__line"></span>
-              </div>
-            </div>
-
-            <div className="qualif__data">
-              <div></div>
-
-              <div>
-                <span className="qualif__rounder"></span>
-                <span className="qualif__line"></span>
-              </div>
-              <div>
-                <h3 className="qualif__title">uxui</h3>
-                <span className="qualif__subtitle">Spain.</span>
-                <div className="qualif__calender">
-                  <i className="uil uil-calendar-alt"></i>2009 - Present
-                </div>
-              </div>
-            </div> */}
             
           </div>
         </div>
