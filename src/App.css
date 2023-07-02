@@ -220,3 +220,29 @@ img {
     margin-right: var(--mb-1);
   }
 }
+
+/*scroll-bar */
+::-webkit-scrollbar {
+  width: 7px;
+  padding: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 5px ;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #B7A6A6 ;
+  border-radius: 10px ;
+  padding: 5px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#D3D3D3;
+  cursor: pointer;
+}
