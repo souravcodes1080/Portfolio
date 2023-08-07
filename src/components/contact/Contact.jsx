@@ -43,7 +43,7 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Write your query</h3>
 
-          {/* <form ref={form} onSubmit={sendEmail} className='contact__form'>
+          <form ref={form} onSubmit={sendEmail} className='contact__form'>
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input type="text" name='name' className='contact__form-input' placeholder='Your name...' />
@@ -79,18 +79,7 @@ const Contact = () => {
                   ></path>
                 </svg>
         </button>
-          </form> */}
-          <form name="contact" netlify>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+          </form>
         </div>
       </div>
     </section>
