@@ -52,8 +52,8 @@ const Right = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">C++ Programming</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <h3 className="skills__name">TypeScript</h3>
+                    <span className="skills__level">Beginner</span>
                 </div>
                 </div>
 

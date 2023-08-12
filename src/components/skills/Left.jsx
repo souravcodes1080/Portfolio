@@ -22,8 +22,8 @@ const Left = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">MS-Office</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <h3 className="skills__name">Angular</h3>
+                    <span className="skills__level">Beginner</span>
                 </div>
                 </div>
 
@@ -43,7 +43,7 @@ const Left = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">English</h3>
+                    <h3 className="skills__name">MongoDB</h3>
                     <span className="skills__level">Intermediate</span>
                 </div>
                 </div>
@@ -52,8 +52,8 @@ const Left = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">MS-Excel</h3>
-                    <span className="skills__level">Intermediate
+                    <h3 className="skills__name">PHP</h3>
+                    <span className="skills__level">Beginner
                 </span>
                 </div>
                 </div>
