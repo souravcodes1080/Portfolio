@@ -31,7 +31,7 @@ const Qualif = () => {
                 ? "qualif__button qualif__active button--flex"
                 : "qualif__button button--flex"
             }
-            onClick={()=>toggleTab(2)}
+            onClick={()=>toggleTab(1)}
           >
             <i className="uil uil-briefcase-alt qualif__icon"></i>Experience
           </div>
@@ -49,8 +49,23 @@ const Qualif = () => {
               <div>
                 <h3 className="qualif__title">Secondary</h3>
                 <span className="qualif__subtitle">Techno India Group Public School, Siliguri</span>
-                <div className="qualif__calender">
+                <div className="qualif__calender fc">
                   <i className="uil uil-calendar-alt"></i>2019
+                </div>
+              </div>
+              
+              <div>
+                <span className="qualif__rounder"></span>
+                <span className="qualif__line"></span>
+              </div>
+            </div>
+            
+            <div className="qualif__data">
+              <div>
+                <h3 className="qualif__title">Higher Secondary</h3>
+                <span className="qualif__subtitle">Techno India Group Public School, Siliguri</span>
+                <div className="qualif__calender">
+                  <i className="uil uil-calendar-alt"></i>2021
                 </div>
               </div>
 
@@ -60,6 +75,8 @@ const Qualif = () => {
               </div>
             </div>
 
+
+
             <div className="qualif__data">
               <div></div>
 
@@ -67,13 +84,21 @@ const Qualif = () => {
                 <span className="qualif__rounder"></span>
                 <span className="qualif__line"></span>
               </div>
-              <div>
-                <h3 className="qualif__title">Higher Secondary</h3>
-                <span className="qualif__subtitle">Techno India Group Public School, Siliguri</span>
+              <div className="left">
+                <h3 className="qualif__title" >Video Editor</h3>
+                <span className="qualif__subtitle">Freelancer</span>
                 <div className="qualif__calender">
-                  <i className="uil uil-calendar-alt"></i>2021
+                  <i className="uil uil-calendar-alt"></i>2020
                 </div>
               </div>
+            </div>
+
+
+
+            <div className="qualif__data">
+              <div></div>
+
+                            
             </div>
 
             <div className="qualif__data">
@@ -91,21 +116,22 @@ const Qualif = () => {
               </div>
             </div>
 
-            {/* <div className="qualif__data">
+            <div className="qualif__data">
               <div></div>
 
               <div>
                 <span className="qualif__rounder"></span>
                 <span className="qualif__line"></span>
               </div>
-              <div>
-                <h3 className="qualif__title">ux ui</h3>
-                <span className="qualif__subtitle">Spain.</span>
+              <div className="left">
+                <h3 className="qualif__title" >Intern</h3>
+                <span className="qualif__subtitle">Groveus Informatics Pvt. Ltd</span>
                 <div className="qualif__calender">
-                  <i className="uil uil-calendar-alt"></i>2019 - Present
+                  <i className="uil uil-calendar-alt"></i>2023 - Present
                 </div>
               </div>
-            </div> */}
+            </div>
+            
           </div>
 
           <div

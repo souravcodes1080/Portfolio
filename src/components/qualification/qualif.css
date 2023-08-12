@@ -46,11 +46,17 @@
 .qualif__content-active{
     display: block;
 }
-
+.fc{
+    padding-bottom: 20px;
+}
 .qualif__data{
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
+    text-align: right;
+}
+.qualif__data div{
+    paddin-bottom: 14px;
 }
 
 .qualif__title{
@@ -61,11 +67,14 @@
 .qualif__subtitle{
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-1);
+    /* margin-bottom: var(--mb-1); */
 
 }
 .qualif__calendar{
     font-size: var(--small-font-size);
+    /* padding-bottom: 200px; */
+    margin-bottom: 20px;
+
 }
 
 .qualif__rounder{
@@ -84,7 +93,9 @@
     transform: translate(6px, -7px);
 }
 
-
+.left{
+    text-align: left !important;
+}
 
 
 
