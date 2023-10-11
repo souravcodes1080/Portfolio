@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://sourav-c-portfolio.netlify.app"> 
- <h1>Website</h1>
+ <h1 href="https://sourav-c-portfolio.netlify.app">Website</h1>
 </a>
 </div>
 
