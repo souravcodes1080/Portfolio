@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'
-import WOW from "wowjs";
+import React from 'react'
+
 
 // function Data() {
   
