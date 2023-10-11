@@ -82,7 +82,7 @@
 .about__download{
     display: flex;
     /* flex-direction: row-reverse; */
-    justify-content: end;
+    justify-content: flex-end;
 }
 .download-btn{
     
