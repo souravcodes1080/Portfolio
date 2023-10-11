@@ -3,6 +3,9 @@ import './project.css'
 import Left from "./Left"
 import Middle from "./Middle"
 import Right from "./Right"
+import BottomL from "./BottomL"
+import BottomM from "./BottomM"
+import BottomR from "./BottomR"
 
 const Project = () => {
   return (
@@ -14,7 +17,9 @@ const Project = () => {
           <Left/>
           <Middle/>
           <Right/>
-
+          <BottomL />
+          <BottomM />
+          <BottomR />
          
         </div>
     </section>
