@@ -53,7 +53,7 @@ const About = () => {
             </div>
              <div className="aboutimg__container">
           <div className="about__img-border"></div>
-          <img src={AboutImg} alt="aboutImg" className="about__img " /></div>
+          <img src={AboutImg} alt="aboutImg" className="about__img " loading='lazy'/></div>
         </div>
     </section>
   )

@@ -7,7 +7,7 @@ const Left = () => {
         
         <div className="projects__box">
             
-        <img src={bharat} alt="aboutImg" className="" width={"100%"} />
+        <img src={bharat} alt="aboutImg" className="" width={"100%"}  loading='lazy'/>
 
         <h3>Bharat Packers Group</h3>
         <p>

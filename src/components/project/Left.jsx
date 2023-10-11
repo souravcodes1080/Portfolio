@@ -7,7 +7,7 @@ const Left = () => {
         
         <div className="projects__box">
             
-        <img src={noteflow} alt="aboutImg" className="" width={"100%"} />
+        <img src={noteflow} alt="aboutImg" className="" width={"100%"} loading='lazy'/>
 
         <h3>Note Flow</h3>
         <p>
