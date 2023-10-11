@@ -13,26 +13,26 @@ const Left = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">C Programming</h3>
-                    <span className="skills__level">Intermediate</span>
-                </div>
-                </div>
-
-                <div className="skills__data">
-                <i class='bx bx-badge-check'></i>
-
-                <div>
-                    <h3 className="skills__name">Angular</h3>
-                    <span className="skills__level">Beginner</span>
-                </div>
-                </div>
-
-                <div className="skills__data">
-                <i class='bx bx-badge-check'></i>
-
-                <div>
                     <h3 className="skills__name">HTML</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <span className="skills__level">Advanced</span>
+                </div>
+                </div>
+
+                <div className="skills__data">
+                <i class='bx bx-badge-check'></i>
+
+                <div>
+                    <h3 className="skills__name">CSS</h3>
+                    <span className="skills__level">Advanced</span>
+                </div>
+                </div>
+
+                <div className="skills__data">
+                <i class='bx bx-badge-check'></i>
+
+                <div>
+                    <h3 className="skills__name">JavaScript</h3>
+                    <span className="skills__level">Advanced</span>
                 </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@ const Left = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">MongoDB</h3>
+                    <h3 className="skills__name">Bootstrap</h3>
                     <span className="skills__level">Intermediate</span>
                 </div>
                 </div>
@@ -52,8 +52,8 @@ const Left = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">PHP</h3>
-                    <span className="skills__level">Beginner
+                    <h3 className="skills__name">React JS</h3>
+                    <span className="skills__level">Intermediate
                 </span>
                 </div>
                 </div>
@@ -62,8 +62,8 @@ const Left = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">CSS</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <h3 className="skills__name">Next JS</h3>
+                    <span className="skills__level">Beginner</span>
                 </div>
                 </div>
             </div>
