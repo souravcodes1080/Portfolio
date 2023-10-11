@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import WOW from "wowjs";
 
+// function Data() {
+  
+// }
 const Data = () => {
+  // useEffect(() => {
+  //   const wow = new WOW();
+  //   wow.init();
+  // }, []);
   return (
     <div className="home__data">
-        <h1 className="home__title">
+        <h1 className="home__title wow bounceIn">
             Sourav Chowdhury
             <svg
                   width="36"

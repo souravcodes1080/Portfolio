@@ -1,21 +1,22 @@
-.skills{
-    /* padding-top: 15rem; */
+.projects{
+    margin-top: 0rem;
+    
     /* padding-bottom: 15rem; */
 }
-.skills__container{
-    grid-template-columns: repeat(2,350px);
+.projects__container{
+    grid-template-columns: repeat(3,350px) ;
     column-gap: 3rem;
     justify-content: center;
 }
 
-.skills__content{
+.projects__content{
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
 }
 
-/* .skills__title{
+/* .projects__title{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     text-align: center;
@@ -23,38 +24,62 @@
 
 } */
 
-.skills__box{
+.projects__box{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     column-gap: 2.5rem;
     
 }
 
 
-.skills__group{
+.projects__group{
     display: grid;
     align-items: flex-start;
     row-gap: 1rem;
 }
 
-.skills__data{
+.projects__data{
     display: flex;
     column-gap: 0.5rem;
     
 }
 
-.skills .bx-badge-check{
+.projects__box img{
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.project__links{
+    display: flex;
+    justify-content: space-between;
+
+}
+.website__button{
+    width: 50%;
+}
+.github-btn{
+    color: var(--title-color);
+    display: flex;
+    align-items: center;
+}
+
+.projects .bx-badge-check{
     font-size: 1rem;
     color: var(--title-color);
 }
 
-.skills__name{
+.projects__name{
     font-size: var(--normal-font-size) ;
     font-weight: var(--font-medium);
     line-height: 18px;
 }
 
-.skills__level{
+.projects__level{
     font-size: var(--tiny-font-size);
 }
 
@@ -63,7 +88,7 @@
 
 
 @media screen and (max-width: 992px) {
-    .skills__container{
+    .projects__container{
         grid-template-columns: max-content;
         row-gap: 2rem;
     }
@@ -71,27 +96,33 @@
   /* For medium devices */
 
   @media screen and (max-width: 576px) {
-    #skills{
-        padding-top: 0rem;
-        padding-bottom: 7rem;
+    #project{
+        margin-top: 5rem !important;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
-    .skills__container{
+    .projects__container{
         grid-template-columns: 1fr;
 
     }
 
-    .skills__content{
+    .projects__content{
         padding: 1.5rem;
     }
   }
   
   /* For small devices */
   @media screen and (max-width: 350px) {
-    .skills__box{
+    #project{
+        margin-top: 1rem !important;
+        padding-top: 3rem;
+        padding-bottom: 13rem;
+    }
+    .projects__box{
         column-gap: 1.25rem;
     }
 
-    .skills__name{
+    .projects__name{
         font-size: var(--small-font-size);
     }
   }

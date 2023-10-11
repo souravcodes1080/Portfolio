@@ -10,9 +10,7 @@ const About = () => {
         <span className="section__subtitle">My introduction</span>
 
         <div className="about__container container grid">
-          <div className="aboutimg__container">
-          <div className="about__img-border"></div>
-          <img src={AboutImg} alt="aboutImg" className="about__img " /></div>
+         
 
             <div className="about__data">
             
@@ -22,8 +20,8 @@ const About = () => {
               I am currently pursuing B.Tech CSE from Siliguri Institute of Technology, Darjiling. I will be graduating by 2025.
               <br/> My passion and dedication to my work are evident in the effort and enthusiasm I bring to every task.
               </p>
-              
-              <a download="" href={CV} className="button button--flex ">Download CV
+              <div className="about__download">
+                <a download="" href={CV} className="button button--flex download-btn">Download CV
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,8 +48,12 @@ const About = () => {
                 ></path>
               </svg>
               </a>
+              </div>
+              
             </div>
-            
+             <div className="aboutimg__container">
+          <div className="about__img-border"></div>
+          <img src={AboutImg} alt="aboutImg" className="about__img " /></div>
         </div>
     </section>
   )

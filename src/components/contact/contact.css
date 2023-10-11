@@ -1,6 +1,6 @@
 .contact{
   padding-top: 10rem;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
 }
 .contact__container {
   grid-template-columns: repeat(2, max-content);

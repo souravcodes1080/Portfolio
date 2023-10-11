@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
-import CV from "../../assets/SouravChowdhuryResume.pdf";
+// import CV from "../../assets/SouravChowdhuryResume.pdf";
 const Header = () => {
 
     window.addEventListener("scroll", function(){
@@ -43,6 +43,11 @@ const Header = () => {
                 <i className="uil uil-briefcase-alt nav__icon"></i>Qualification
               </a>
             </li>
+            <li className="nav__item">
+              <a href="#project" className="nav__link">
+                <i className="uil uil-file-alt nav__icon"></i>Projects
+              </a>
+            </li>
 
             <li className="nav__item">
               <a href="#contact" className="nav__link">
@@ -50,11 +55,11 @@ const Header = () => {
               </a>
             </li>
 
-            <li className="nav__item nav__item-border">
+            {/* <li className="nav__item nav__item-border">
               <a download="" href={CV} className="nav__link  ">
                 <i className="uil uil-download-alt nav__icon"></i>Download CV
               </a>
-            </li>
+            </li> */}
           </ul>
 
           <i

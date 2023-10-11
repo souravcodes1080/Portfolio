@@ -1,6 +1,6 @@
 .qualif{
-    padding-top: 10rem;
-    padding-bottom: 15rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 .qualif__container{
     max-width: 768px;
@@ -100,6 +100,10 @@
 
 
 @media screen and (max-width: 992px) {
+    .qualif{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
     .qualif__container{
         margin-left: auto;
         margin-right: auto;
@@ -112,6 +116,10 @@
         padding-top: 0rem;
         padding-bottom: 2rem;
     }
+    .qualif{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
     .qualif__container{
         margin-left: var(--mb-1-5); 
        margin-right: var(--mb-1-5);
@@ -120,6 +128,10 @@
   }
   
   @media screen and (max-width: 576px) {
+    .qualif{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
     .qualif__sections{
         grid-template-columns: initial;
     }
@@ -127,6 +139,10 @@
   
   /* For small devices */
   @media screen and (max-width: 350px) {
+    .qualif{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
     .qualif__data{
         gap: 0.5rem;
     }
