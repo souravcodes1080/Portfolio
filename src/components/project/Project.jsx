@@ -14,13 +14,11 @@ const Project = () => {
         <span className="section__subtitle">My portfolio</span>
 
         <div className="projects__container container grid">
-          <Left/>
-          <Middle/>
-          <Right/>
           <BottomL />
+          <Left/>
           <BottomM />
           <BottomR />
-         
+         <Right/>
         </div>
     </section>
   )
