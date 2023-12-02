@@ -50,7 +50,7 @@ const Qualif = () => {
                 <h3 className="qualif__title">Secondary</h3>
                 <span className="qualif__subtitle">Techno India Group Public School, Siliguri</span>
                 <div className="qualif__calender fc">
-                  <i className="uil uil-calendar-alt"></i>2019
+                  <i className="uil uil-calendar-alt"></i>&nbsp;2019
                 </div>
               </div>
               
@@ -65,7 +65,7 @@ const Qualif = () => {
                 <h3 className="qualif__title">Higher Secondary</h3>
                 <span className="qualif__subtitle">Techno India Group Public School, Siliguri</span>
                 <div className="qualif__calender">
-                  <i className="uil uil-calendar-alt"></i>2021
+                  <i className="uil uil-calendar-alt"></i>&nbsp;2021
                 </div>
               </div>
 
@@ -88,7 +88,7 @@ const Qualif = () => {
                 <h3 className="qualif__title" >Video Editor</h3>
                 <span className="qualif__subtitle">Freelancer</span>
                 <div className="qualif__calender">
-                  <i className="uil uil-calendar-alt"></i>2020
+                  <i className="uil uil-calendar-alt"></i>&nbsp;2020
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@ const Qualif = () => {
                 <h3 className="qualif__title">B. Tech CSE</h3>
                 <span className="qualif__subtitle">Siliguri Institute of Technology, Darjiling</span>
                 <div className="qualif__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - 2025 Present
+                  <i className="uil uil-calendar-alt"></i>&nbsp;2021 - 2025 Present
                 </div>
               </div>
 
@@ -127,11 +127,40 @@ const Qualif = () => {
                 <h3 className="qualif__title" >Intern</h3>
                 <span className="qualif__subtitle">Groveus Informatics Pvt. Ltd</span>
                 <div className="qualif__calender">
-                  <i className="uil uil-calendar-alt"></i>2023 - Present
+                  <i className="uil uil-calendar-alt"></i>&nbsp;2023 - 2024
+                </div><br />
+              </div>
+            </div>
+
+            {/* <div className="qualif__data">
+              <div>
+                <h3 className="qualif__title">SIH '23</h3>
+                <span className="qualif__subtitle">Smart India Hackathon Grand Finalist</span>
+                <div className="qualif__calender">
+                  <i className="uil uil-calendar-alt"></i>&nbsp;2023
+                </div>
+              </div>
+
+              <div>
+                <span className="qualif__rounder"></span>
+                <span className="qualif__line"></span>
+              </div>
+            </div> */}
+            <div className="qualif__data">
+              <div></div>
+
+              <div>
+                <span className="qualif__rounder"></span>
+                <span className="qualif__line"></span>
+              </div>
+              <div className="left">
+                <h3 className="qualif__title" >SIH 23</h3>
+                <span className="qualif__subtitle">Grand Finalist in Smart India Hackathon 2023</span>
+                <div className="qualif__calender">
+                  <i className="uil uil-calendar-alt"></i>&nbsp;2023
                 </div>
               </div>
             </div>
-            
           </div>
 
           <div

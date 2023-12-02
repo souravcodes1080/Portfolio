@@ -65,7 +65,8 @@ const Data = () => {
         </h1>
         <h3 className="home__subtitle">Student</h3>
         <p className="home__description">
-        I'm currenty pursuing B.Tech CSE and I'm very passionate and dedicated to my work.
+        {/* I'm currenty pursuing B.Tech CSE and I'm very passionate and dedicated to my work. */}
+        Web Developer Intern, pursuing Bachelors in CSE. Grand Finalist in Smart India Hackathon '23
         </p>
         <a href="#contact" className="button button--flex button-glow">
             Say hello

@@ -9,7 +9,7 @@ const Left = () => {
             
         <img src={bharat} alt="aboutImg" className="" width={"100%"}  loading='lazy'/>
 
-        <h3>Bharat Packers Group</h3>
+        <h3>Text Utils</h3>
         <p>
         This is a Text Util Web App built using React JS and Bootstrap.
         </p>
