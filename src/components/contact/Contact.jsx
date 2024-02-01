@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css"
 const Contact = () => {
@@ -10,6 +10,9 @@ const Contact = () => {
     emailjs.sendForm('service_xtexxa5', 'template_1a8by1t', form.current, 'PFUp2oJ1ovSEX8H47')
       e.target.reset()
   };
+
+  
+  
   return (
     <section className="contact section container" id="contact">
       <h2 className="section__title">Get in touch</h2>
@@ -46,20 +49,20 @@ const Contact = () => {
           <form ref={form} onSubmit={sendEmail} className='contact__form'>
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
-              <input type="text" name='name' className='contact__form-input' placeholder='Your name...' />
+              <input required type="text" name='name' className='contact__form-input' placeholder='Your name...' />
             </div>
 
             <div className="contact__form-div">
               <label className="contact__form-tag">Email</label>
-              <input type="Email" name='email' className='contact__form-input' placeholder='Your email...' />
+              <input required type="Email" name='email' className='contact__form-input' placeholder='Your email...' />
             </div>
 
             <div className="contact__form-div contact__form-area">
                 <label className="contact__form-tag">Query</label>
-                <textarea name="query"  cols="30" rows="10" className='contact__form-input' placeholder='Write your query...'></textarea>
+                <textarea required name="query"  cols="30" rows="10" className='contact__form-input' placeholder='Write your query...'></textarea>
               </div>
 
-              <button className="button button--flex">
+              <button className="button button--flex" >
             Send Message
             <svg
                   class="button__icon"

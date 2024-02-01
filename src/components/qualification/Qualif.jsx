@@ -127,7 +127,7 @@ const Qualif = () => {
                 <h3 className="qualif__title" >Intern</h3>
                 <span className="qualif__subtitle">Groveus Informatics Pvt. Ltd</span>
                 <div className="qualif__calender">
-                  <i className="uil uil-calendar-alt"></i>&nbsp;2023 - 2024
+                  <i className="uil uil-calendar-alt"></i>&nbsp;2023
                 </div><br />
               </div>
             </div>
@@ -158,11 +158,28 @@ const Qualif = () => {
                 <span className="qualif__subtitle">Grand Finalist in Smart India Hackathon 2023</span>
                 <div className="qualif__calender">
                   <i className="uil uil-calendar-alt"></i>&nbsp;2023
-                </div>
+                </div><br />
               </div>
             </div>
           </div>
 
+          <div className="qualif__data">
+              <div></div>
+
+              <div>
+                <span className="qualif__rounder"></span>
+                <span className="qualif__line"></span>
+              </div>
+              <div className="left">
+                <h3 className="qualif__title" >Web Developer</h3>
+                <span className="qualif__subtitle">WOW Gateways</span>
+                <div className="qualif__calender">
+                  <i className="uil uil-calendar-alt"></i>&nbsp;2024
+                </div>
+                <p>Present</p>
+                
+              </div>
+            </div>
           <div
             className={
               toggleState === 2
