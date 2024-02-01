@@ -1,5 +1,5 @@
 import React from 'react'
-import joke from "../../assets/joke.png";
+import chat from "../../assets/chat.png";
 const Left = () => {
   return (
 <div className="projects__content">
@@ -7,16 +7,16 @@ const Left = () => {
         
         <div className="projects__box">
             
-        <img src={joke} alt="aboutImg" className="" width={"100%"} loading='lazy'/>
+        <img src={chat} alt="aboutImg" className="chat_app_img" width={"100%"} loading='lazy'/>
 
-        <h3>Dad Jokes</h3>
+        <h3>Hike - Chat App</h3>
         <p>
-        This is a PWA build using html, css, js and API integration.
+          Hike is a Reat time chat application built using web socket, socket.io.
         </p>
         <br />
         <div className="project__links">
-            <a href="https://dad-joke-s.netlify.app/" className='button website-button' target='blank'>Website</a>
-            <a href="https://github.com/souravcodes1080/dad_jokes" className='website-button github-btn' target='blank'>Github</a>
+            <a href="https://hike-psi.vercel.app/" className='button website-button' target='blank'>Website</a>
+            <a href="https://github.com/souravcodes1080/hike" className='website-button github-btn' target='blank'>Github</a>
         </div>
         
         </div>

@@ -7,6 +7,7 @@
     grid-template-columns: repeat(3,350px) ;
     column-gap: 3rem;
     justify-content: center;
+    align-items: center;
 }
 
 .projects__content{
@@ -83,6 +84,11 @@
     font-size: var(--tiny-font-size);
 }
 
+.chat_app_img{
+    width: 300px;
+    object-fit: contain !important;
+    background-color: rgb(167, 167, 167);
+}
 
 
 

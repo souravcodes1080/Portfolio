@@ -1,5 +1,5 @@
 import React from 'react'
-import bharat from "../../assets/tu.png";
+import shopee from "../../assets/shopee.png";
 const Left = () => {
   return (
 <div className="projects__content">
@@ -7,16 +7,16 @@ const Left = () => {
         
         <div className="projects__box">
             
-        <img src={bharat} alt="aboutImg" className="" width={"100%"}  loading='lazy'/>
+        <img src={shopee} alt="aboutImg" className="chat_app_img" width={"100%"}  loading='lazy'/>
 
-        <h3>Text Utils</h3>
+        <h3>Shopee Shopping App</h3>
         <p>
-        This is a Text Util Web App built using React JS and Bootstrap.
+        This is a e-commerce clone along with admin panel.
         </p>
         <br />
         <div className="project__links">
-            <a href="https://text-utils-by-sourav.netlify.app/" className='button website-button' target='blank'>Website</a>
-            <a href="https://github.com/souravcodes1080/Text-Utils" className='website-button github-btn' target='blank'>Github</a>
+            <a href="https://mern-ecommerce-rho-fawn.vercel.app/" className='button website-button' target='blank'>Website</a>
+            <a href="https://github.com/souravcodes1080/mern-ecommerce" className='website-button github-btn' target='blank'>Github</a>
         </div>
         
         </div>
