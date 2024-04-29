@@ -9,9 +9,9 @@ const Left = () => {
             
         <img src={tomato} alt="aboutImg" className="" width={"100%"} loading='lazy'/>
 
-        <h3>Note Flow</h3>
+        <h3>Tomato</h3>
         <p>
-        This is a Full Stack web app built using React JS for frontend and Node JS, Express, Mongo DB for backend.
+        Tomato is a Food ordering web app built using MERN stack.
         </p>
         <br />
         <div className="project__links">
