@@ -7,7 +7,7 @@ const Middle = () => {
         
         <div className="projects__box">
             
-        <img src={hh} alt="aboutImg" className="" width={"100%"} loading='lazy'/>
+        <img src={gemini} alt="aboutImg" className="" width={"100%"} loading='lazy'/>
 
         <h3>Gemini Clone</h3>
         <p>
