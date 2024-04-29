@@ -11,12 +11,12 @@ const Left = () => {
 
         <h3>Note Flow</h3>
         <p>
-        This is a note flow app a PWA build using html, css and vanilla js.
+        This is a Full Stack web app built using React JS for frontend and Node JS, Express, Mongo DB for backend.
         </p>
         <br />
         <div className="project__links">
-            <a href="https://sourav-note-flow.netlify.app/" className='button website-button' target='blank'>Website</a>
-            <a href="https://github.com/souravcodes1080/note_flow" className='website-button github-btn' target='blank'>Github</a>
+            <a href="https://tomato-food-delivery.onrender.com/" className='button website-button' target='blank'>Website</a>
+            <a href="https://github.com/souravcodes1080/food-deliver" className='website-button github-btn' target='blank'>Github</a>
         </div>
         
         </div>
