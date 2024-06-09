@@ -54,10 +54,11 @@
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
     text-align: right;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
 }
-.qualif__data div{
-    paddin-bottom: 14px;
-}
+
 
 .qualif__title{
     font-size: var(--normal-font-size);
@@ -97,6 +98,15 @@
     text-align: left !important;
 }
 
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }to{
+        opacity: 1;
+        scale: 1;
+    }
+}
 
 
 @media screen and (max-width: 992px) {
